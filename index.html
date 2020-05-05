@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de trucos - Tablas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">HOJA DE TRUCOS</h1>
+        <h2 class="text-center">TABLAS</h2>
+    </header>
+
+    <section class="container mt-5" id="BasicTable">
+        <h3>Estructura Básica de las Tablas</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <table class="table table-dark table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Elemento</th>
+                            <th class="text-center">Concepto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;table&gt;</td>
+                            <td>Se usa el elemento &lt;table&gt; para crear una tabla.
+                                El contenido de la tabla debe estar dentro de las etiquetas de apertura y cierre
+                                &lt;table&gt; &lt;/table&gt;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>El contenido de la tabla se expresa en filas.
+                                Para hacer filas en HTML, se usa la etiqueta de apertura y cierre
+                                &lt;tr&gt; &lt;/tr&gt;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>En medio de las etiquetas &lt;tr&gt;
+                                &lt;/tr&gt;, se deben escribir las celdas que
+                                tendrá cada fila. <br>
+                                Cada celda en una tabla se representa usando un &lt;td&gt;.
+                                Dentro de las etiquetas &lt;td&gt; &lt;/td&gt;, estará el contenido que corresponde a
+                                cada celda.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;th&gt;</td>
+                            <td>El elemento &lt;th&gt; &lt;/th&gt; se usa en lugar de &lt;td&gt; para indicar que el
+                                contenido es el encabezado de la tabla. </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="bg-dark text-center pb-2 text-white">Ejemplo</h4>
+                <div class="bg-white p-3">
+                    <span class="lineas"><span>&lt;table&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Product<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Brand<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Quantity<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Mouse<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Genius<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>30<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span> </span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>iPad<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Apple<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>20<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Computer<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Apple<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>10<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Total<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span><span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>60<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas"><span>&lt;/table</span><span>&gt;</span></span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="bg-dark text-center pb-2 text-white">Resultado</h4>
+                <div class="bg-white p-3">
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th>Brand</th>
+                            <th>Quantity</th>
+                        </tr>
+                        <tr>
+                            <td>Mouse</td>
+                            <td>Genius</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>iPad</td>
+                            <td>Apple</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Computer</td>
+                            <td>Apple</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td></td>
+                            <td>60</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5" id="TableAtribute">
+        <h3>Uniendo Columnas y filas</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <table class="table table-dark table-responsive">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Elemento</th>
+                            <th class="text-center">Concepto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Atributo rowspan</td>
+                            <td>El atributo rowspan puede ser
+                                usado en un elemento &lt;th&gt; o &lt;td&gt;
+                                para indicar cuántas filas una celda
+                                debería abarcar en la tabla.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Atributo colspan</td>
+                            <td>El atributo colspan puede ser
+                                usado en un elemento &lt;th&gt; o &lt;td&gt;
+                                para indicar cuántas Columnas debería abarcar una celda
+                                en la tabla.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="bg-dark text-center pb-2 text-white">Ejemplo</h4>
+                <div class="bg-white p-3">
+                    <span class="lineas"><span>&lt;table&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Product<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Brand<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Quantity<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Mouse<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Genius<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>30<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span> </span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>iPad<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td rowspan="2"&gt;</span>Apple<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>20<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Computer<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>10<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td colspan="2"&gt;</span>Total<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>60<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas"><span>&lt;/table</span><span>&gt;</span></span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="bg-dark text-center pb-2 text-white">Resultado</h4>
+                <div class="bg-white p-3">
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th>Brand</th>
+                            <th>Quantity</th>
+                        </tr>
+                        <tr>
+                            <td>Mouse</td>
+                            <td>Genius</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>iPad</td>
+                            <td rowspan="2">Apple</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Computer</td>
+
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td>60</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5 mb-3" id="LongTable">
+        <h3>Tablas largas</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <table class="table table-dark table-responsive">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Elemento</th>
+                            <th class="text-center">Concepto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Los encabezados de las tablas deben
+                                ser colocados dentro del elemento &lt;thead&gt; &lt;/thead&gt;.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;</td>
+                            <td>El contenido de la tabla deben
+                                ser colocado dentro del elemento &lt;tbody&gt; &lt;/tbody&gt;.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tfoot&gt;</td>
+                            <td>Se coloca dentro de la etiqueta &lt;tfoot&gt; &lt;/tfoot&gt;, el pie de página de la
+                                tabla.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="bg-dark text-center pb-2 text-white">Ejemplo</h4>
+                <div class="bg-white p-3">
+                    <span class="lineas"><span>&lt;table&gt;</span></span>
+                    <span class="lineas ml-2"><span>&lt;thead&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Product<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Brand<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;th&gt;</span>Quantity<span>&lt;/th&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-2"><span>&lt;/thead&gt;</span></span>
+                    <span class="lineas ml-2"><span>&lt;tbody&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Mouse<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Genius<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>30<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span> </span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>iPad<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td rowspan="2"&gt;</span>Apple<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>20<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>Computer<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>10<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-2"><span>&lt;/tbody&gt;</span></span>
+                    <span class="lineas ml-2"><span>&lt;tfoot&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;tr&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td colspan="2"&gt;</span>Total<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-5"><span>&lt;td&gt;</span>60<span>&lt;/td&gt;</span></span>
+                    <span class="lineas ml-4"><span>&lt;/tr</span><span>&gt;</span></span>
+                    <span class="lineas ml-2"><span>&lt;/tfoot&gt;</span></span>
+                    <span class="lineas"><span>&lt;/table</span><span>&gt;</span></span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="bg-dark text-center pb-2 text-white">Resultado</h4>
+                <div class="bg-white p-3">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Brand</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mouse</td>
+                                <td>Genius</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>iPad</td>
+                                <td rowspan="2">Apple</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>Computer</td>
+
+                                <td>10</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total</td>
+                                <td>60</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-center">
+        <a href="https://twitter.com/IngDanielB" target="_blank" ><img src="https://img.icons8.com/color/48/000000/twitter.png"/></a> 
+        <a href="https://www.linkedin.com/in/ingdanielb/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> </a> 
+    </footer>
+
+</body>
+
+</html>

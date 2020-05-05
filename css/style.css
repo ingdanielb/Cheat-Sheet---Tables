@@ -1,0 +1,21 @@
+body{
+    background-color: #FFE054;
+}
+
+header{
+    background-color: #5672B0;
+    color: white;
+}
+
+.lineas{
+    display: block;    
+}
+
+.lineas span{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+    
+}
